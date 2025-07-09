@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Babel Multiversal Image Archive</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="banner" class="hidden"></div>
+
+        <main id="menu">
+            <h1>Babel Multiversal Image Archive</h1>
+            <nav>
+                <button id="loc-btn" class="link">search by location</button>
+                <button id="img-btn" class="link">search by image</button>
+            </nav>
+        </main>
+
+        <section id="loc-flow" class="hidden">
+            <label id="loc-label" for="loc-input">Enter multiverse ID:</label>
+            <input id="loc-input" type="text" autocomplete="off">
+            <button id="loc-next">Next</button>
+        </section>
+
+        <section id="group-map" class="hidden"></section>
+        <section id="galaxy-map" class="hidden"></section>
+        <section id="arm-map" class="hidden"></section>
+        <section id="planet-map" class="hidden"></section>
+        <section id="continent-map" class="hidden"></section>
+        <section id="country-map" class="hidden"></section>
+        <section id="library-map" class="hidden"></section>
+        <section id="floor-map" class="hidden"></section>
+        <section id="section-map" class="hidden"></section>
+        <section id="bookcase-map" class="hidden"></section>
+        <section id="shelf-map" class="hidden"></section>
+        <section id="book-map" class="hidden"></section>
+        <section id="chapter-map" class="hidden"></section>
+        <section id="page-map" class="hidden"></section>
+
+        <section id="img-upload" class="hidden">
+            <label for="filePick">Upload .jpg or .png</label>
+            <input id="filePick" type="file" accept="image/png,image/jpeg">
+        </section>
+
+        <section id="image-menu" class="hidden"></section>
+
+        <script src="script.js"></script>
+    </body>
+</html>
